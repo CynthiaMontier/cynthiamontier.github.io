@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+header{
+    position: fixed;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    background-color: white;
+    z-index: 100;
+    word-spacing: 10%;
+    padding-left: 2,5vh;
+    padding-right: 2,5vh;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+    
+}
+header.sticky{
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+}
+
+table a{
+    color: blue;
+}
+
+/*---------CLASSES-----------*/
+
+.dontshow{
+    color: transparent;
+}
+.vid{
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+/*---------TABLES-----------*/
+
+.table1{
+    position: absolute;
+    top: 30vh;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+    margin: 5vw;
+    font-size: 1.1em;
+}
+.table1 tr td{
+    padding: 2.5vh; 
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+}
+.table1 td{
+    width: 10%;
+}
+.table2{
+    top: 0vh;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: transparent;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+.table2 tr td{
+    padding: 2.5vh; 
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: transparent;
+}
+.table2 td{
+    width: 10%;
+}
+
+/*---------CLASSES-----------*/
+
+.galerie{
+    position: absolute;
+    top: 30vh;
+/*
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+*/
+    margin: 5vw;
+    font-size: 1.1em;
+}
+
+.insta{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+    float: left;
+    margin: 1.4vw;
+    
+    
+}
+.insta img{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+     overflow-x: hidden;
+    
+}
+/*---------IDS-----------*/
+
+#tdp1{
+    background-image: none;
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+#tdp1:hover{
+    background-image: url(img/table/preview1.png);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+#tdp2{
+    background-image: none;
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+#tdp2:hover{
+    background-image: url(img/table/preview2.png);
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+
+/*---------FONTES-----------*/
+
+
+
+
+/*---------MEDIAQ-----------*/
