@@ -28,6 +28,17 @@ header.sticky{
     padding-bottom: 0.2vh;
 }
 
+header a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: black
+}
+
 table a{
     color: blue;
 }
@@ -64,6 +75,27 @@ table a{
 .table1 td{
     width: 10%;
 }
+
+td a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+td a:hover{
+    text-decoration: underline;
+}
+
+table img{
+    width: 100%;
+    transition-duration: 1s;
+    z-index: 300;
+}
+
+table img:hover{
+    width: 200%;
+    transition-duration: 1s;
+}
+
 .table2{
     top: 0vh;
     border-style: solid;
@@ -75,6 +107,7 @@ table a{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.1em;
+    z-index: 200;
 }
 .table2 tr td{
     padding: 2.5vh; 
